@@ -462,6 +462,8 @@ font-family: 'Lato',sans-serif;
     border: 1px solid #ccc;
     width: 100%;
     margin-bottom: 7px;
+    font-size: 15px;
+    font-size: 16px;
 
 }
 
@@ -477,6 +479,7 @@ row::after{
     padding: 10px 16px;
     cursor: pointer;
     -webkit-appearance: none;
+    font-size: 16.5px;
 }
 
 .contact-send:hover{
@@ -491,7 +494,32 @@ row::after{
 }
 
 #footer{
+    text-align: center;
+    padding: 64px 16px;
+    background: rgba(0, 0,0, 0.03);
+}
 
+.footer-icon{
+    font-size: 22px;
+    color: rgba(0, 0,0, 0.6);
+    padding: 8px;
+}
+
+.footer-icon:hover{
+    opacity: 0.45;
+}
+
+.copy-right{
+    color: rgba(0, 0,0, 0.6);
+    font-size: 15px;
+    margin: 15px;
+}
+
+.footer-link{
+    color: rgba(0, 0,0, 0.6);
+    text-decoration: revert;
+    padding: 8px;
+    display: inline-block;
 }
 
 
