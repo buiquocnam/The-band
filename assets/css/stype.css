@@ -476,6 +476,7 @@ row::after{
     border: none;
     padding: 10px 16px;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .contact-send:hover{
