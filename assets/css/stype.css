@@ -46,6 +46,7 @@ html{
     width: 900px;
     background: #fff;
     animation:  modalfacein ease 0.5s;
+    -webkit-animation: modalfacein ease 0.5s;
 }
 
 .modal .modal-header{
@@ -106,7 +107,7 @@ html{
 
 
 .clear-fix{
-        clear: both;
+    clear: both;
 }
 
 #main{
