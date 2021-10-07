@@ -245,6 +245,9 @@ a{
     /* -webkit-animation: slideAuto 10s ease-in-out infinite; */
 }
     
+.slide{
+    object-fit: cover;
+}
 
 .myslide{
     width: 100%;
